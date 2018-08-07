@@ -1,0 +1,27 @@
+{
+  "name": "faction",
+  "version": "1.0.0",
+  "description": "A typed action creator factory",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape -r ts-node/register lib/**/*.test.ts | tap-difflet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwilkerson/faction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwilkerson/faction/issues"
+  },
+  "homepage": "https://github.com/fwilkerson/faction#readme",
+  "devDependencies": {
+    "@types/tape": "^4.2.32",
+    "tap-difflet": "^0.7.1",
+    "tape": "^4.9.1",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1"
+  }
+}
